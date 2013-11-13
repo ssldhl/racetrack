@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites>
+  <testsuite errors="0" failures="0" hostname="DWNPCPU043" id="0" name="RaceTests" package="racetrack" tests="1" time="0.178" timestamp="2013-11-13T07:41:16">
+      <properties />
+
+      <testcase classname="racetrack.RaceTests" name="testRaceDatesBeforeToday" time="0.177" />
+
+      <system-out><![CDATA[--Output from testRaceDatesBeforeToday--
+]]></system-out>
+
+      <system-err><![CDATA[--Output from testRaceDatesBeforeToday--
+]]></system-err>
+
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="DWNPCPU043" id="1" name="RaceControllerTests" package="racetrack" tests="1" time="1.885" timestamp="2013-11-13T07:41:02">
+      <properties />
+
+      <testcase classname="racetrack.RaceControllerTests" name="testSomething" time="1.564" />
+
+      <system-out><![CDATA[--Output from testSomething--
+]]></system-out>
+
+      <system-err><![CDATA[--Output from testSomething--
+]]></system-err>
+
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="DWNPCPU043" id="2" name="RaceTests" package="racetrack" tests="1" time="1.285" timestamp="2013-11-13T07:40:59">
+      <properties />
+
+      <testcase classname="racetrack.RaceTests" name="testSomething" time="0.247" />
+
+      <system-out><![CDATA[--Output from testSomething--
+]]></system-out>
+
+      <system-err><![CDATA[--Output from testSomething--
+]]></system-err>
+
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="DWNPCPU043" id="3" name="RegistrationControllerTests" package="racetrack" tests="1" time="0.25" timestamp="2013-11-13T07:41:04">
+      <properties />
+
+      <testcase classname="racetrack.RegistrationControllerTests" name="testSomething" time="0.246" />
+
+      <system-out><![CDATA[--Output from testSomething--
+]]></system-out>
+
+      <system-err><![CDATA[--Output from testSomething--
+]]></system-err>
+
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="DWNPCPU043" id="4" name="RegistrationTests" package="racetrack" tests="1" time="1.151" timestamp="2013-11-13T07:41:01">
+      <properties />
+
+      <testcase classname="racetrack.RegistrationTests" name="testSomething" time="0.538" />
+
+      <system-out><![CDATA[--Output from testSomething--
+]]></system-out>
+
+      <system-err><![CDATA[--Output from testSomething--
+]]></system-err>
+
+  </testsuite>
+</testsuites>
