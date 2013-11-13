@@ -18,4 +18,10 @@ class Race {
     	cost(min:0.0, max:100.0)
     	maxRunners(min:0, max:100000)
     }
+
+    static hasMany = [registrations:Registration]
+
+    String toString(){
+        return "${name}, ${startDate.format('MM/dd/yyyy')}"
+    }
 }
