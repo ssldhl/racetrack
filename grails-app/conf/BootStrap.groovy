@@ -6,6 +6,18 @@ class BootStrap {
     	switch(GrailsUtil.environment){
     		case "development":
 
+                def admin = new racetrack.User(login:"root", password:"foobar", role:"admin")
+                admin.save()
+                if(admin.hasErrors()){
+                    println admin.errors
+                }
+
+                def user = new racetrack.User(login:"sudahal", password:"brownfox", role:"user")
+                user.save()
+                if(user.hasErrors()){
+                    println user.errors
+                }
+
     			def sushil = new racetrack.Runner(firstName:"Sushil", lastName:"Dahal", dateOfBirth:new Date() - 365*22,
     			gender:"M", address:"Kalimati, Kathmandu", city: "Kathmandu", 
     			state:"KTM", zipcode:"00977", email:"sudahal@deerwalk.com")

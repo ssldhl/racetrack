@@ -597,16 +597,43 @@ a.skip {
 
 /* RaceTrack Customization */
 #header {
-background: #48802c;
-padding: 2em 1em 2em 1em;
-margin-bottom: 1em;
+	background: #48802c;
+	padding: 2em 1em 2em 1em;
+	margin-bottom: 1em;
+}
+
+#header p{
+	text-align: center;
+}
+a.header-main:link, a.header-main:visited {
+	color: #fff;
+	font-size: 3em;
+	font-weight: bold;
+	text-decoration: none;
+}
+a.header-main:hover{
+	color: #aaa;
+}
+.header-sub {
+	color: #dfdfdf;
+	font-size: 1.25em;
+	font-style: italic;
+	text-align: center;
 }
 
 #footer {
-font-size: 0.75em;
-font-style: italic;
-padding: 2em 1em 2em 1em;
-margin-bottom: 1em;
-margin-top: 1em;
-clear: both;
+	font-size: 0.75em;
+	font-style: italic;
+	padding: 2em 1em 2em 1em;
+	margin-bottom: 1em;
+	margin-top: 1em;
+	clear: both;
+}
+#loginHeader {
+	float: right;
+	color: #fff;
+}
+
+#loginHeader a{
+	color: #fff;
 }

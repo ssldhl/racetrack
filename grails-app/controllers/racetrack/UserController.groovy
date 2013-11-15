@@ -6,6 +6,23 @@ class UserController {
 
     static allowedMethods = [save: "POST", update: "POST", delete: "POST"]
 
+    def beforeInterceptor = [action:this.&auth, except:['login', 'logout', 'authenticate']]
+
+
+    def auth() {
+        if(!session.user) {
+            redirect(controller:"user", action:"login")
+            return false
+        }
+        if(!session.user.admin){
+            flash.message = "Tsk tsk—admins only"
+            redirect(controller:"race", action:"list")
+            return false
+        }
+    }
+
+
+
     def index() {
         redirect(action: "list", params: params)
     }
@@ -97,6 +114,26 @@ class UserController {
         catch (DataIntegrityViolationException e) {
             flash.message = message(code: 'default.not.deleted.message', args: [message(code: 'user.label', default: 'User'), id])
             redirect(action: "show", id: id)
+        }
+    }
+
+    def login = {}
+
+    def logout = {
+        flash.message = "Goodbye ${session.user.login}"
+        session.user = null
+        redirect(action:"login")
+    }
+
+    def authenticate = {
+        def user = User.findByLoginAndPassword(params.login, params.password.encodeAsSHA())
+        if(user){
+            session.user = user
+            flash.message = "Hello ${user.login}!"
+            redirect(controller:"race", action:"list")
+        }else{
+            flash.message = "Sorry, ${params.login}. Please try again."
+            render(view:"login")
         }
     }
 }
