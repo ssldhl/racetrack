@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <testsuites>
-  <testsuite errors="0" failures="0" hostname="DWNPCPU043" id="0" name="RaceTests" package="racetrack" tests="1" time="0.243" timestamp="2013-11-15T10:52:03">
+  <testsuite errors="0" failures="0" hostname="DWNPCPU043" id="0" name="RaceTests" package="racetrack" tests="1" time="0.171" timestamp="2013-11-18T04:26:13">
       <properties />
 
-      <testcase classname="racetrack.RaceTests" name="testRaceDatesBeforeToday" time="0.243" />
+      <testcase classname="racetrack.RaceTests" name="testRaceDatesBeforeToday" time="0.17" />
 
       <system-out><![CDATA[--Output from testRaceDatesBeforeToday--
 ]]></system-out>
@@ -12,10 +12,10 @@
 ]]></system-err>
 
   </testsuite>
-  <testsuite errors="0" failures="0" hostname="DWNPCPU043" id="1" name="FooterTagLibTests" package="racetrack" tests="1" time="1.891" timestamp="2013-11-15T10:51:45">
+  <testsuite errors="0" failures="0" hostname="DWNPCPU043" id="1" name="AdminFiltersTests" package="racetrack" tests="1" time="0.631" timestamp="2013-11-18T04:25:58">
       <properties />
 
-      <testcase classname="racetrack.FooterTagLibTests" name="testSomething" time="1.451" />
+      <testcase classname="racetrack.AdminFiltersTests" name="testSomething" time="0.467" />
 
       <system-out><![CDATA[--Output from testSomething--
 ]]></system-out>
@@ -24,10 +24,10 @@
 ]]></system-err>
 
   </testsuite>
-  <testsuite errors="0" failures="0" hostname="DWNPCPU043" id="2" name="RaceControllerTests" package="racetrack" tests="1" time="0.309" timestamp="2013-11-15T10:51:52">
+  <testsuite errors="0" failures="0" hostname="DWNPCPU043" id="2" name="FooterTagLibTests" package="racetrack" tests="1" time="1.556" timestamp="2013-11-18T04:25:54">
       <properties />
 
-      <testcase classname="racetrack.RaceControllerTests" name="testSomething" time="0.179" />
+      <testcase classname="racetrack.FooterTagLibTests" name="testSomething" time="1.27" />
 
       <system-out><![CDATA[--Output from testSomething--
 ]]></system-out>
@@ -36,10 +36,10 @@
 ]]></system-err>
 
   </testsuite>
-  <testsuite errors="0" failures="0" hostname="DWNPCPU043" id="3" name="RaceTests" package="racetrack" tests="1" time="0.448" timestamp="2013-11-15T10:51:48">
+  <testsuite errors="0" failures="0" hostname="DWNPCPU043" id="3" name="LoginTagLibTests" package="racetrack" tests="1" time="0.315" timestamp="2013-11-18T04:26:01">
       <properties />
 
-      <testcase classname="racetrack.RaceTests" name="testSomething" time="0.201" />
+      <testcase classname="racetrack.LoginTagLibTests" name="testSomething" time="0.185" />
 
       <system-out><![CDATA[--Output from testSomething--
 ]]></system-out>
@@ -48,10 +48,10 @@
 ]]></system-err>
 
   </testsuite>
-  <testsuite errors="0" failures="0" hostname="DWNPCPU043" id="4" name="RegistrationControllerTests" package="racetrack" tests="1" time="0.271" timestamp="2013-11-15T10:51:53">
+  <testsuite errors="0" failures="0" hostname="DWNPCPU043" id="4" name="RaceControllerTests" package="racetrack" tests="1" time="0.309" timestamp="2013-11-18T04:26:02">
       <properties />
 
-      <testcase classname="racetrack.RegistrationControllerTests" name="testSomething" time="0.268" />
+      <testcase classname="racetrack.RaceControllerTests" name="testSomething" time="0.182" />
 
       <system-out><![CDATA[--Output from testSomething--
 ]]></system-out>
@@ -60,10 +60,10 @@
 ]]></system-err>
 
   </testsuite>
-  <testsuite errors="0" failures="0" hostname="DWNPCPU043" id="5" name="RegistrationTests" package="racetrack" tests="1" time="0.322" timestamp="2013-11-15T10:51:49">
+  <testsuite errors="0" failures="0" hostname="DWNPCPU043" id="5" name="RaceTests" package="racetrack" tests="1" time="0.352" timestamp="2013-11-18T04:25:57">
       <properties />
 
-      <testcase classname="racetrack.RegistrationTests" name="testSomething" time="0.167" />
+      <testcase classname="racetrack.RaceTests" name="testSomething" time="0.239" />
 
       <system-out><![CDATA[--Output from testSomething--
 ]]></system-out>
@@ -72,10 +72,10 @@
 ]]></system-err>
 
   </testsuite>
-  <testsuite errors="0" failures="0" hostname="DWNPCPU043" id="6" name="RunnerControllerTests" package="racetrack" tests="1" time="0.336" timestamp="2013-11-15T10:51:52">
+  <testsuite errors="0" failures="0" hostname="DWNPCPU043" id="6" name="RegistrationControllerTests" package="racetrack" tests="1" time="0.2" timestamp="2013-11-18T04:26:02">
       <properties />
 
-      <testcase classname="racetrack.RunnerControllerTests" name="testSomething" time="0.2" />
+      <testcase classname="racetrack.RegistrationControllerTests" name="testSomething" time="0.196" />
 
       <system-out><![CDATA[--Output from testSomething--
 ]]></system-out>
@@ -84,10 +84,10 @@
 ]]></system-err>
 
   </testsuite>
-  <testsuite errors="0" failures="0" hostname="DWNPCPU043" id="7" name="RunnerTests" package="racetrack" tests="1" time="0.868" timestamp="2013-11-15T10:51:47">
+  <testsuite errors="0" failures="0" hostname="DWNPCPU043" id="7" name="RegistrationTests" package="racetrack" tests="1" time="0.314" timestamp="2013-11-18T04:25:57">
       <properties />
 
-      <testcase classname="racetrack.RunnerTests" name="testSomething" time="0.674" />
+      <testcase classname="racetrack.RegistrationTests" name="testSomething" time="0.109" />
 
       <system-out><![CDATA[--Output from testSomething--
 ]]></system-out>
@@ -96,14 +96,44 @@
 ]]></system-err>
 
   </testsuite>
-  <testsuite errors="0" failures="0" hostname="DWNPCPU043" id="8" name="UserControllerTests" package="racetrack" tests="3" time="2.486" timestamp="2013-11-15T10:51:49">
+  <testsuite errors="0" failures="0" hostname="DWNPCPU043" id="8" name="RunnerControllerTests" package="racetrack" tests="1" time="0.435" timestamp="2013-11-18T04:26:01">
       <properties />
 
-      <testcase classname="racetrack.UserControllerTests" name="testIndex" time="0.82" />
+      <testcase classname="racetrack.RunnerControllerTests" name="testSomething" time="0.307" />
 
-      <testcase classname="racetrack.UserControllerTests" name="testShow" time="1.355" />
+      <system-out><![CDATA[--Output from testSomething--
+]]></system-out>
 
-      <testcase classname="racetrack.UserControllerTests" name="testAuthenticate" time="0.186" />
+      <system-err><![CDATA[--Output from testSomething--
+]]></system-err>
+
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="DWNPCPU043" id="9" name="RunnerTests" package="racetrack" tests="1" time="1.085" timestamp="2013-11-18T04:25:56">
+      <properties />
+
+      <testcase classname="racetrack.RunnerTests" name="testSomething" time="0.566" />
+
+      <system-out><![CDATA[--Output from testSomething--
+]]></system-out>
+
+      <system-err><![CDATA[--Output from testSomething--
+]]></system-err>
+
+  </testsuite>
+  <testsuite errors="1" failures="0" hostname="DWNPCPU043" id="10" name="UserControllerTests" package="racetrack" tests="3" time="2.313" timestamp="2013-11-18T04:25:58">
+      <properties />
+
+      <testcase classname="racetrack.UserControllerTests" name="testIndex" time="0.834" />
+
+      <testcase classname="racetrack.UserControllerTests" name="testShow" time="1.085" />
+
+      <testcase classname="racetrack.UserControllerTests" name="testAuthenticate" time="0.267">
+          <error message="Cannot issue a redirect(..) here. A previous call to redirect(..) has already redirected the response." type="org.codehaus.groovy.grails.web.servlet.mvc.exceptions.CannotRedirectException">org.codehaus.groovy.grails.web.servlet.mvc.exceptions.CannotRedirectException: Cannot issue a redirect(..) here. A previous call to redirect(..) has already redirected the response.
+	at racetrack.UserController$_closure3.doCall(UserController.groovy:136)
+	at racetrack.UserControllerTests.testAuthenticate(UserControllerTests.groovy:48)
+</error>
+
+      </testcase>
 
       <system-out><![CDATA[--Output from testIndex--
 --Output from testShow--
@@ -116,12 +146,12 @@
 ]]></system-err>
 
   </testsuite>
-  <testsuite errors="0" failures="0" hostname="DWNPCPU043" id="9" name="UserTests" package="racetrack" tests="2" time="0.51" timestamp="2013-11-15T10:51:52">
+  <testsuite errors="0" failures="0" hostname="DWNPCPU043" id="11" name="UserTests" package="racetrack" tests="2" time="0.496" timestamp="2013-11-18T04:26:01">
       <properties />
 
-      <testcase classname="racetrack.UserTests" name="testSimpleConstraints" time="0.268" />
+      <testcase classname="racetrack.UserTests" name="testSimpleConstraints" time="0.229" />
 
-      <testcase classname="racetrack.UserTests" name="testUniqueConstraint" time="0.097" />
+      <testcase classname="racetrack.UserTests" name="testUniqueConstraint" time="0.139" />
 
       <system-out><![CDATA[--Output from testSimpleConstraints--
 --Output from testUniqueConstraint--

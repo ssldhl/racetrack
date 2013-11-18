@@ -602,9 +602,7 @@ a.skip {
 	margin-bottom: 1em;
 }
 
-#header p{
-	text-align: center;
-}
+
 a.header-main:link, a.header-main:visited {
 	color: #fff;
 	font-size: 3em;
@@ -618,7 +616,6 @@ a.header-main:hover{
 	color: #dfdfdf;
 	font-size: 1.25em;
 	font-style: italic;
-	text-align: center;
 }
 
 #footer {
@@ -636,4 +633,9 @@ a.header-main:hover{
 
 #loginHeader a{
 	color: #fff;
+}
+
+#search {
+	float: right;
+	margin: 2em 1em;
 }

@@ -8,6 +8,8 @@ class Race {
 	BigDecimal distance
 	BigDecimal cost
 	Integer maxRunners = 100000
+    
+    static searchable = true
 	
     static constraints = {
     	name(blank:false, maxSize:50)

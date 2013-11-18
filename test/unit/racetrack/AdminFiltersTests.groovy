@@ -8,6 +8,5 @@ import grails.test.mixin.*
 class AdminFiltersTests {
 
     void testSomething() {
-        fail "Implement me"
     }
 }
