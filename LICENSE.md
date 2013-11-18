@@ -1,4 +1,5 @@
 ##Racetrack Copyright © 2013 to the Racetrack Authors is licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License.
+
 You are free:
 
 * to Share — to copy, distribute and transmit the work
@@ -20,6 +21,7 @@ With the understanding that:
     * Rights other persons may have either in the work itself or in how the work is used, such as publicity or privacy rights.
 
 ###Notice — For any reuse or distribution, you must make clear to others the license terms of this work. The best way to do this is with a link to this web page.
+
 Based on a work at https://github.com/sushilthe/racetrack.
 ----------------------------------------------------------
 Permissions beyond the scope of this license may be available at sushilthe@gmail.com upon request.
